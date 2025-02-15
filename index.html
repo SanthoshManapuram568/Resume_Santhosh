@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://i.postimg.cc/9fqYVvxh/logo.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <aside class="sidebar " data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                </figure>
+
+                <div class="info-content">
+                    <img src="assets/SANTHOSH_IMAGE_NO_BG.png" alt="profile" width="250" height="270"/>
+                    <h1 class="name" title="Ammal">
+                        Manapuram <br/>Santhosh Kumar</h1>
+                    <p class="title">Full Stack Developer</p>
+                </div>
+
+                <button class="info-more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+
+            <div class="sidebar-info-more">
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="mailto:mdammal7862@gmail.com" class="contact-link">manapuramsanthoshkumar@gmail.com</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+
+                            <a href="tel:+919667124661" class="contact-link">+91 7780731077</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+
+                            <time datetime="2003-01-26">July 30, 1998</time>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+                            <a href="https://maps.app.goo.gl/Fm9rsKjtasPS544p7" target="_blank">
+                            <address>16b-1-12, Tangellamudi, Eluru, 534005, A.P, India</address>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+                    <li class="social-item"><a href="https://github.com/SanthoshManapuram568" target="_blank" class="social-link"><ion-icon name="logo-github"></ion-icon></a></li>
+                    <li class="social-item"><a href="https://www.linkedin.com/in/santhosh-kumar-manapuram-245878135/" target="_blank" class="social-link"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <div class="main-content">
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
+                    <!-- <li class="navbar-item"><button class="navbar-link" data-nav-link>Portfolio</button></li> -->
+                    <!-- <li class="navbar-item"><button class="navbar-link" data-nav-link>Blog</button></li> -->
+                    <!-- <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li> -->
+                </ul>
+            </nav>
+
+            <article class="about active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+
+                <section class="about-text">
+                    <p>As a Full-Stack Developer, I have developed efficient, testable, and scalable code using Java (Java 8 and Java 17) and Angular (Angular 8/12), with extensive experience in building microservices using Spring Boot. I have worked on deploying and managing applications on Kubernetes, ensuring smooth deployments through CI/CD pipelines, and debugging any issues in the console. I am proficient in developing and optimizing SQL queries and working with Oracle databases, as well as using GraphQL for flexible API communication. Additionally, I have hands-on experience in automating tests with JUnit and utilizing Spring Batch for handling daily and nightly records. My focus on code quality and security is reinforced by using Sonar, Fortify, and Black Duck. I also collaborate with UI/UX teams to create intuitive user interfaces while ensuring performance improvements and optimizing application scalability.</p>
+                    <p>In addition to my technical expertise, I have a strong background in data structures, enabling me to write optimized algorithms and solve complex problems efficiently. I have created design documents, IDD, and TDD, presenting them during walkthroughs with business partners. I have also contributed to Swagger API documentation and been involved in impact analysis for future code changes. With experience in Agile methodologies, Jira for story refinement, and Confluence for easy documentation, I bring strong teamwork and problem-solving skills. My ability to quickly understand requirements and collaborate effectively with cross-functional teams has been acknowledged through client appreciations and manager recognition.</p>
+                </section>
+
+                <section class="service">
+                    <h3 class="h3 service-title">What I'm doing</h3>
+
+                    <ul class="service-list">
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/4389jZkP/icon-design.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web Design</h4>
+                                <p class="service-item-text">The most modern and high-quality design made at a professional level that are intuitive, responsive, and user-friendly by collaborating closely with UI/UX teams to ensure seamless design implementation, focusing on performance optimization and ensuring a smooth user experience across devices.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/ZqgqrqzG/icon-dev.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Microservices development</h4>
+                                <p class="service-item-text">High-quality development of microservices that are fault-tolerant and easily maintainable by implementing robust error handling, circuit breakers, and modular code architecture, ensuring scalability and efficient troubleshooting.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <div class="modal-container " data-modal-container>
+                    <div class="overlay " data-overlay></div>
+
+                    <section class="testimonials-modal">
+                        <button class="modal-close-btn" data-modal-close-btn><ion-icon name="close-outline"></ion-icon></button>
+
+                        <div class="modal-img-wrapper">
+                            <figure class="modal-avatar-box">
+                                <img src="https://i.postimg.cc/zGDHfn3G/avatar-1.png" alt="Daniel Lewis" width="80" data-modal-img>
+                            </figure>
+
+                            <img src="https://i.postimg.cc/mZ00RwX7/icon-quote.png" alt="quote icon">
+                        </div>
+
+                        <div class="modal-content">
+                            <h4 class="h3 modal-title" data-modal-title>Daniel Lewis</h4>
+                            <time datetime="2023-06-14">14 June, 2023</time>
+
+                            <div class="modal-text" data-modal-text>
+                                <p>Richard was hired to create a corporate identity. It's modern, clean and with a beautiful design that got a lot of praises from colleagues and visitors. We were very pleased with the work done. He has a lot of experience and is very concerned about the needs of client.</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </article>
+            
+            <article class="resume " data-page="resume">
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                    <a class="h4" href="assets/RESUME_SANTHOSH.pdf" 
+                        download="RESUME_SANTHOSH.pdf" target="_blank" style="display: inline-flex; align-items: center; text-decoration: underline;">
+                        Download Resume (PDF) 
+                        <ion-icon name="document-outline" style="margin-left: 5px;"></ion-icon>
+                    </a>
+
+                </header>
+
+                <section class="timeline" style="margin-top: 5%;">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="desktop-outline"></ion-icon></div>
+                        <h3 class="h3">WORK EXPERIENCE </h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Deloitte</h4>
+                            <span>March 18, 2024 - Present</span>
+                            <p class="timeline-text">
+                                <ul style="color: white;">
+                                    <li>* Developed well-designed, efficient and testable code using Java17 and Angular 12.</li>
+                                    <li>* Apache Camel is used to route the API calls.</li>
+                                    <li>* Used Spring batches to perform the daily, nightly records modifications.</li>
+                                    <li>* Used Sonar, Fortify, and Black duck for the code quality and security issue.</li>
+                                    <li>* Working with testing team to resolve the issues effectively.</li>
+                                    <li>* Collaborated with UI/UX teams to create design documents.</li>
+                                    <li>* Created IDD and TDD documents and presented in STATE walkthroughs as well as business partners.</li>
+                                    <li>* Done impact analysis on the code changes that are coming as part of future releases.</li>
+                                  </ul>
+                                                              
+                            </p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Tata Consultancy Services</h4>
+                            <span>June 22, 2022 - March 4, 2024</span>
+                            <p class="timeline-text">
+                                <ul style="color: white;">
+                                    <li>* Developing a TCS vendor management system for contract workers using Java8 & Spring-Boot, JUnit.</li>
+                                    <li>* Created the UI layout and developed the modules from scratch using Angular 8/12.</li>
+                                    <li>* Working with UX team for enhancements.</li>
+                                    <li>* Deployment of pipeline into Kubernetes cluster and debugging the console if any error occurs.</li>
+                                    <li>* Used Sonar, Fortify, and Black Duck for the code quality and security issue.</li>
+                                    <li>* Taken training session for the peer on Angular and Spring Boot.</li>
+                                    <li>* Received an appreciation mail from manager for smooth deployments and quick understanding of requirements.</li>
+                                  </ul>
+                            </p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Cognizant Technology Solutions</h4>
+                            <span>December 28, 2019 - June 10, 2022</span>
+                            <p class="timeline-text">
+                                <ul style="color: white;">
+                                    <li>* Developed well-designed, efficient, and testable code using Java8 and Angular 8.</li>
+                                    <li>* Created screens for stories based on the routing required.</li>
+                                    <li>* Created Spring Boot microservices with JUnit involved and deployed them using Jenkins into Kubernetes.</li>
+                                    <li>* REST API Automation Testing using Rest Assured.</li>
+                                    <li>* Used Git for version control.</li>
+                                    <li>* Used Jira for story refinements and backlog grooming and Confluence for the easy documentation of the APIs which contains the sample request and responses.</li>
+                                    <li>* Integrated Swagger for writing documentation for, designing, and describing new APIs as well as editing existing ones.</li>
+                                    <li>* Collaborated with front-end team to enhance the application visibility & performance.</li>
+                                    <li>* Received client appreciations for improving the best practices documentation.</li>
+                                  </ul>                                  
+                            </p>
+                        </li>
+                    </ol>
+                </section>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+                        <h3 class="h3">Highest Education</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Ramachandra Engineering College</h4>
+                            <span>2015 - 2019</span>
+                            <p class="timeline-text">
+                                <b>Stream: </b>Bachelor Of Technology in Computer Science Engineering<br/>
+                                <b>Aggregate:</b> 71.26% 
+                            </p>                        
+                        </li>
+                    </ol>
+                </section>
+                <section class="skill">
+                    <h3 class="h3 skills-title">My Skills</h3>
+
+                    <ul class="skills-list content-card">
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Web Design (Angular)</h5>
+                                <data value="80">80%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 80%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Microservices (Java, Spring Boot)</h5>
+                                <data value="90">90%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 90%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Database (SQL, PLSQL)</h5>
+                                <data value="70">70%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 70%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">CI/CD (Jira, GIT, Jenkins, Kubernetes, Docker)</h5>
+                                <data value="65">65%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 65%;"></div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Testing & Bug Fixes(JUnits, Rest Assured, Fortify, Sonar, BlackDuck)</h5>
+                                <data value="80">80%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 80%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <article class="portfolio " data-page="portfolio">
+                <header>
+                    <h2 class="h2 article-title">Portfolio</h2>
+                </header>
+
+                <section class="projects">
+                    <div class="filter-select-box">
+                        <button class="filter-select " data-select>
+                            <div class="select-value" data-select-value>Select Category</div>
+
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+                        </button>
+
+                        <ul class="select-list">
+                            <li class="select-item"><button data-select-item>All</button></li>
+                            <li class="select-item"><button data-select-item>Web Design</button></li>
+                            <li class="select-item"><button data-select-item>Applications</button></li>
+                            <li class="select-item"><button data-select-item>Web Development</button></li>
+                        </ul>
+                    </div>
+
+                    <ul class="project-list">
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/qRHpHMyd/project-1.jpg" alt="finance" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Finance</h3>
+                                <p class="project-category">Web Development</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/bNrcM2Wt/project-2.png" alt="orizon" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Orizon</h3>
+                                <p class="project-category">Web Development</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="web design">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/jSJVqYsq/project-3.jpg" alt="fundo" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Fundo</h3>
+                                <p class="project-category">Web Design</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="applications">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/dtpXxNGb/project-4.png" alt="brawlhalla" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Brawlhalla</h3>
+                                <p class="project-category">Applications</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="web design">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/43T0JKLw/project-5.png" alt="dsm." loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">DSM.</h3>
+                                <p class="project-category">Web Design</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="web design">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/qR1DX1kZ/project-6.png" alt="metaspark" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Metaspark</h3>
+                                <p class="project-category">Web Design</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/Kj4q9tjc/project-7.png" alt="summary" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Summary</h3>
+                                <p class="project-category">Web Development</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="applications">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/rw2j4B1w/project-8.jpg" alt="task manager" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Task Manager</h3>
+                                <p class="project-category">Applications</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/7LxNsSQv/project-9.png" alt="arrival" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Arrival</h3>
+                                <p class="project-category">Web Development</p>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            
+            <!-- <article class="contact " data-page="contact">
+                <header>
+                    <h2 class="h2 article-title">Contact</h2>
+                </header>
+
+                <section class="mapbox" data-mapbox>
+                    <figure>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d618.8768288647642!2d77.13402806518874!3d28.662831927981987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2sin!4v1735397917281!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </figure>
+                </section>
+
+                <section class="contact-form">
+                    <h3 class="h3 form-title">Contact Form</h3>
+
+                    <form action="#" class="form" data-form>
+                        <div class="input-wrapper">
+                            <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+                            <input type="email" name="email" class="form-input" placeholder="Email Address" required data-form-input>
+                        </div>
+
+                        <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input=""></textarea>
+
+                        <button class="form-btn" type="submit" disabled data-form-btn>
+                            <ion-icon name="paper-plane"></ion-icon>
+                            <span>Send Message</span>
+                        </button>
+                    </form>
+                </section>
+            </article> -->
+        </div>
+    </main>
+
+
+    <script src="main.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
